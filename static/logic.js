@@ -12,11 +12,14 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Use this link to get the GeoJSON data.
 var link = "data/map.geojson";
 // The function that will determine the color of a NAME_x based on the borough that it belongs to
-function chooseColor(NAME_x) {
-  if (NAME_x == "194.01") return "yellow";
-  else if (NAME_x == "142") return "red";
-  else if (NAME_x == "195.03") return "orange";
-  else return "black";
+function chooseColor(poverty) {
+  if (poverty == 0) return "black";
+  else if (poverty < 2) return "blue";
+  else if (poverty < 4) return "green";
+  else if (poverty < 8) return "yellow";
+  else if (poverty < 13) return "orange";
+  else if (poverty < 20) return "red";
+  else return "brown";
 }
 
 // Getting our GeoJSON data
@@ -28,7 +31,7 @@ d3.json(link).then(function(data) {
       return {
         color: "white",
         // Call the chooseColor() function to decide which color to color our NAME_x. (The color is based on the borough.)
-        fillColor: chooseColor(feature.properties.NAME_x),
+        fillColor: chooseColor(feature.properties.Poverty),
         fillOpacity: 0.5,
         weight: 3
       };
