@@ -8,3 +8,20 @@ body,
 html {
   height: 100%;
 }
+
+/* Legend styles */
+.info.legend {
+  /* Add any existing or new legend styles here */
+}
+
+.legend-icon {
+  display: inline-block;
+  width: 12px; /* Adjust the width of the colored square */
+  height: 12px; /* Adjust the height of the colored square */
+  margin-right: 5px; /* Adjust the spacing between the square and text */
+}
+
+.info.legend span {
+  font-weight: bold;
+  color: black;
+}
