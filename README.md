@@ -10,5 +10,6 @@ Instructions on how to use and interact with the project:
 At least one paragraph summarizing efforts for ethical considerations made in the project:
 
 References for the data source(s):
+Census Tracts Shapfile was found and downloaded here https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=Census+Tracts
 
 References for any code used that is not your own:
