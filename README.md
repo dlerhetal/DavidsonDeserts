@@ -1,5 +1,4 @@
 # DavidsonDeserts
-Project 3, Group 2, Davidson County Food Insecurity (Food Deserts)
 
 **** Overview and  purpose**** 
 We created an interactive map of Davidson County census tracts, discovering which communities struggle with extreme poverty and food insecurity, and comparing that with local available grocery resources.
@@ -20,6 +19,8 @@ We created an interactive map of Davidson County census tracts, discovering whic
 * https://docs.developer.yelp.com/reference/v3_business_search
 * https://data.census.gov/map?t=Income%20and%20Poverty&g=050XX00US47037$1400000&layer=VT_2022_140_00_PY_D1&mode=thematic&loc=36.1869,-86.8464,z8.8422
 * https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=Census+Tracts
+
+Project 3, Group 2, Davidson County Food Insecurity (Food Deserts)
 
 **** References for coding helpers ****
 * Ahmad Mousa - Instructor for the course
